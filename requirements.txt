@@ -1,0 +1,8 @@
+# Core FastMCP framework (brings httpx, uvicorn, starlette)
+fastmcp==2.14.0
+
+# Environment variable loading
+python-dotenv>=1.0.0,<2.0.0
+
+# Async HTTP client (also a transitive dep of fastmcp, pinned for clarity)
+httpx>=0.27,<1.0
